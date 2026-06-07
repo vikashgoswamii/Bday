@@ -44,7 +44,7 @@ export default function OpeningPage() {
               style={{ fontFamily: "'Georgia', serif" }}
             >
               Ritu vikki ne teri life mai aakr kuch is tyrah ujala kia ... jese
-              is light ke button ko jalane se ujala hoga, try karke ✨
+              is light ke button ko jalane se ujala hoga, try karke dekh✨
             </motion.p>
           </motion.div>
         ) : (
