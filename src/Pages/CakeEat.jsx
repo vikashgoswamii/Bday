@@ -66,10 +66,6 @@ export default function CakeEat() {
           😋🍰
         </motion.div>
 
-        <button onClick={() => navigate("/ritu-form")}>
-          💌 Vikki Ke Liye Kuch Likho
-        </button>
-
         <motion.button
           whileHover={{ scale: 1.08 }}
           whileTap={{ scale: 0.95 }}
