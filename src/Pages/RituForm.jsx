@@ -27,13 +27,14 @@ export default function RituForm() {
     if (!form.travelPlace.trim()) return alert("✈️ Travel destination batao!");
 
     const formData = new FormData();
+    formData.append("emailAddress", "vikashkumarptc@gmail.com");
     formData.append("entry.2049510791", form.message);
-    formData.append("entry.1294400006", form.threeWords);
-    formData.append("entry.946682727", form.memory);
-    formData.append("entry.1012774316", form.bestAt);
-    formData.append("entry.455297859", form.promise);
-    formData.append("entry.150873519", form.movieName);
-    formData.append("entry.XXXXXXX", form.travelPlace); // 👈 last ID confirm karo
+    formData.append("entry.1478928600", form.threeWords);
+    formData.append("entry.1294400006", form.memory);
+    formData.append("entry.946682727", form.bestAt);
+    formData.append("entry.1012774316", form.promise);
+    formData.append("entry.455297859", form.movieName);
+    formData.append("entry.150873519", form.travelPlace);
 
     await fetch(
       "https://docs.google.com/forms/d/e/1FAIpQLSeKBodko0-sfgR8acB-dDNCgaG0oN5gr453HWiE5yyW0p_8NQ/formResponse",
