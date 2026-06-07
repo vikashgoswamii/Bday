@@ -1,11 +1,11 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import OpeningPage from "./pages/OpeningPage.jsx";
-import Puzzle1 from "./pages/Puzzle1.jsx";
-import Puzzle2 from "./pages/Puzzle2.jsx";
-import Puzzle3 from "./pages/Puzzle3.jsx";
-import Timeline from "./pages/Timeline.jsx";
-import Gallery from "./pages/Gallery.jsx";
-import Final from "./pages/Final.jsx";
+import OpeningPage from "./Pages/OpeningPage.jsx";
+import Puzzle1 from "./Pages/Puzzle1.jsx";
+import Puzzle2 from "./Pages/Puzzle2.jsx";
+import Puzzle3 from "./Pages/Puzzle3.jsx";
+import Timeline from "./Pages/Timeline.jsx";
+import Gallery from "./Pages/Gallery.jsx";
+import Final from "./Pages/Final.jsx";
 import MusicPlayer from "./components/MusicPlayer.jsx";
 import { MusicProvider } from "./context/MusicContext";
 import Cake from "./Pages/Cake";
