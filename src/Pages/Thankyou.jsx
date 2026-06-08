@@ -35,7 +35,7 @@ export default function ThankYou() {
           onClick={() => navigate("/")}
           className="mt-10 px-6 py-3 rounded-full bg-gradient-to-r from-pink-500 to-purple-600 text-white font-bold"
         >
-          Go To Dashboard 🚀
+          Start Again 🚀
         </button>
       </div>
     </div>
