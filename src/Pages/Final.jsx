@@ -111,7 +111,7 @@ export default function Final() {
             <strong className="text-pink-300">
               Jaa, khub khush reh. Khub jeey. Aur haan — mujhe kabhi mat bhoolna
               life time tak and promise bhi krna mujhse ki life time tak nahi
-              bhukegi aur sath rhegi! 😌❤️
+              bhulegi aur sath rhegi! 😌❤️
             </strong>
           </p>
           <p className="text-white/50 mt-4 text-sm">
